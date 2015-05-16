@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="about_us_icons">
+        <item>@drawable/about_us_01</item>
+        <item>@drawable/about_us_02</item>
+        <item>@drawable/about_us_03</item>
+        <item>@drawable/about_us_04</item>
+        <item>@drawable/about_us_05</item>
+        <item>@drawable/about_us_06</item>
+        <item>@drawable/about_us_07</item>
+        <item>@drawable/about_us_08</item>
+        <item>@drawable/about_us_09</item>
+        <item>@drawable/about_us_10</item>
+    </array>
+    <string-array name="about_us_arg1">
+        <item>"مدير پروژه "</item>
+        <item>"متخصص كاردرماني"</item>
+        <item>"متخصص كاردرماني"</item>
+        <item>"متخصص كاردرماني"</item>
+        <item>"طراح گرافيكي و انيميشن ساز"</item>
+        <item>"انيميشن ساز"</item>
+        <item>"پياده‌ساز و برنامه‌نويس جاوا"</item>
+        <item>"پياده‌ساز و برنامه‌نويس جاوا"</item>
+        <item>"مشاور"</item>
+        <item>"مشاور"</item>
+    </string-array>
+
+    <string-array name="about_us_arg2">
+        <item>"مريم طايفه محمودي"</item>
+        <item>"شهريار پروانه"</item>
+        <item>"ستاره قهاري"</item>
+        <item>"عاطفه تقی زاده "</item>
+        <item>"فاطمه فضلي"</item>
+        <item>"ستاره مقاري"</item>
+        <item>"محمدرضا نجفی"</item>
+        <item>"محمد عرفان مولایی"</item>
+        <item>"كامبيز بديع"</item>
+        <item>"مجتبي والي پور"</item>
+    </string-array>
+
+    <string-array name="about_us_arg3">
+        <item>"دكتراي مهندسي كامپيوتر- هوش مصنوعي"</item>
+        <item>"دکترای تخصصی کاردرمانی "</item>
+        <item>"دکترای تخصصی کاردرمانی "</item>
+        <item>"کارشناس ارشد کاردرمانی"</item>
+        <item>"كارشناس مهندسي كامپيوتر- نرم افزار"</item>
+        <item>"كارشناس علوم كامپيوتر"</item>
+        <item>"كارشناس مهندسي كامپيوتر- سخت افزار"</item>
+        <item>"كارشناس مهندسي كامپيوتر- نرم افزار"</item>
+        <item>"دكتراي مهندسي برق"</item>
+        <item>"كارشناس مهندسي كامپيوتر- سخت افزار"</item>
+    </string-array>
+
+    <string-array name="about_us_arg4">
+        <item>" استاديار پژوهشگاه ارتباطات و فناوري اطلاعات، تهران، ايران"</item>
+        <item>"استادیار دانشگاه علوم بهزیستی و توانبخشی، تهران، ایران و عضو هیئت علمی دانشگاه بریتیش کلمبیا، ونکوور، کانادا"</item>
+        <item>"استادیار دانشگاه علوم بهزیستی و توانبخشی، تهران، ایران و عضو هیئت علمی دانشگاه كوئينز، كينگستون، كانادا"</item>
+        <item>"دانشگاه علوم بهزیستی و توانبخشی، تهران، ایران"</item>
+        <item>"دانشگاه الزهراء، تهران، ايران"</item>
+        <item>"دانشگاه الزهراء، تهران، ايران"</item>
+        <item>"دانشگاه تهران، تهران، ايران"</item>
+        <item>"دانشگاه تهران، تهران، ايران"</item>
+        <item>"دانشيار پژوهشگاه ارتباطات و فناوري اطلاعات، تهران، ايران"</item>
+        <item>"دانشگاه جندي شاپور، دزفول، ايران"</item>
+    </string-array>
+</resources>

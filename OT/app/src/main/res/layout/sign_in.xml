@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/teal_300"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:gravity="center_vertical|right"
+        android:background="@color/grey"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/toolbar_title"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <ImageButton
+            android:layout_height="@dimen/main_button_dimen"
+            android:layout_width="@dimen/main_button_dimen"
+            android:src="@drawable/ic_user"
+            android:scaleType="fitCenter"
+            android:elevation="1dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:background="@drawable/sign_in_dat_circle"/>
+        <View
+            android:id="@+id/straight_line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_centerInParent="true"
+            android:background="@color/grey"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:orientation="vertical">
+
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <EditText
+                    android:id="@+id/name_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="35dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/teal_100"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:text="نام"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </TableRow>
+
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+                <EditText
+                    android:id="@+id/family_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="right|center_vertical"
+                    android:minHeight="35dp"
+                    android:layout_weight="1"
+                    android:background="@color/teal_100"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:text="نام خانوادگی"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </TableRow>
+
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|right">
+
+
+
+
+
+                        <TableLayout
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center_vertical"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:textColor="@color/white"
+                                    android:singleLine="true"
+                                    android:text="مرد"
+                                    android:textStyle="bold"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                                <RadioButton
+                                    android:id="@+id/male_rb"
+                                    android:checked="true"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text=""
+                                    android:layout_width="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center_vertical"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:textColor="@color/white"
+                                    android:singleLine="true"
+                                    android:text="زن"
+                                    android:textStyle="bold"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                                <RadioButton
+                                    android:id="@+id/female_rb"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text=""
+                                    android:layout_width="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content" />
+                            </TableRow>
+
+                        </TableLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:text="جنسیت"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rect_button"
+                    android:gravity="center"
+                    android:text="ورود"
+                    android:textColor="@color/white_dark"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:orientation="horizontal"
+        android:background="@color/teal_400" >
+
+    </LinearLayout>
+
+</LinearLayout>
